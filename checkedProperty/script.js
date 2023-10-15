@@ -6,7 +6,7 @@ document.getElementById("myBtn").onclick = function(){
 
     if(myCheckBox.checked)
     {
-        console.log("თქვენ მონიშნული გაქვთ Checkbox-ი");
+        console.log("თქვენ მონიშნული გაქვთ Checkbox");
     }
     else
     {
