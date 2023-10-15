@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+
+input {
+    color: gray;
+    border: 3px solid white;
+    border-radius: 12px;
+    transition: 1s all;
+}
+
+input:focus{
+    scale: 1.2;
+}
+
+button {
+    color: gray;
+    width: 100px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+button:hover {
+    scale: 1.8;
+}
+
+.container {
+    border: 1px solid red;
+    width: 300px;
+    height: 250px;
+
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

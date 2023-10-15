@@ -1,0 +1,29 @@
+* {
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    
+    background-color: black;
+}
+
+.counterBox {
+    width: 220px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.counterBox > label {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+.counterBox > button {
+    width: 70px;
+    cursor: pointer;
+    color: gray;
+}
+
