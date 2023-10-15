@@ -29,4 +29,4 @@ document.getElementById("myBtn").onclick = function(){
     {
         console.log("თქვენ არ აგირჩევიათ გადახდის მეთოდი")
     }
-};``
+};
